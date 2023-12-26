@@ -9,6 +9,10 @@ body {
     box-sizing: border-box;
 }
 
+main {
+    padding: 1rem;
+}
+
 nav {
     display: flex;
     width: 100%;
@@ -29,5 +33,9 @@ button {
     cursor: pointer;
     background-color: yellow;
     font-weight: bold;
+}
+
+.active {
+    background-color: rgb(255, 31, 158);
 }
 
